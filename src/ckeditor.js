@@ -10,6 +10,8 @@ import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
+import Code from '@ckeditor/ckeditor5-basic-styles/src/code';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
@@ -29,6 +31,8 @@ ClassicEditor.builtinPlugins = [
 	Autoformat,
 	Bold,
 	Italic,
+	Underline,
+	Code,
 	BlockQuote,
 	CKFinder,
 	Heading,
@@ -47,11 +51,13 @@ ClassicEditor.defaultConfig = {
 		items: [
 			'bold',
 			'italic',
+			'underline',
+			'code', 
+			'|',
 			'fontColor',
 			'fontBackgroundColor',
 			'fontSize',
 			'|',
-			'link',
 			'bulletedList',
 			'numberedList',
 			'insertTable',
