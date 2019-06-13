@@ -52,7 +52,7 @@ ClassicEditor.defaultConfig = {
 			'bold',
 			'italic',
 			'underline',
-			'code', 
+			'code',
 			'|',
 			'fontColor',
 			'fontBackgroundColor',
