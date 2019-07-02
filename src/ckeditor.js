@@ -47,6 +47,70 @@ ClassicEditor.builtinPlugins = [
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
+	fontColor: {
+		colors: [
+			{
+				color: '#000000',
+			},
+			{
+				color: '#89216B',
+			},
+			{
+				color: '#E34154',
+			},
+			{
+				color: '#ec638e',
+			},
+			{
+				color: '#F37335',
+			},
+			{
+				color: '#FDC830',
+			},
+			{
+				color: '#00B1FF',
+			},
+			{
+				color: '#42CA60',
+			},
+			{
+				color: '#FFFFFF',
+				hasBorder: true
+			}
+		]
+	},
+	fontBackgroundColor: {
+		colors: [
+			{
+				color: '#000000',
+			},
+			{
+				color: '#89216B',
+			},
+			{
+				color: '#E34154',
+			},
+			{
+				color: '#ec638e',
+			},
+			{
+				color: '#F37335',
+			},
+			{
+				color: '#FDC830',
+			},
+			{
+				color: '#00B1FF',
+			},
+			{
+				color: '#42CA60',
+			},
+			{
+				color: '#FFFFFF',
+				hasBorder: true
+			}
+		]
+	},
 	toolbar: {
 		items: [
 			'bold',
